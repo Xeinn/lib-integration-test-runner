@@ -72,7 +72,7 @@ Where NNN is an http response code
 ```
 Example:
 
-Expect result status = 200
+#> Expect result status = 200
 ```
 
 ***Expect value.from.response = "regex" | 'regex' | regex***
@@ -80,7 +80,7 @@ Expect result status = 200
 ```
 Example:
 
-Expect result.myvalue = .*
+#> Expect result.myvalue = .*
 ```
 
 ***Expect value.from.response [is] not present***
@@ -88,7 +88,7 @@ Expect result.myvalue = .*
 ```
 Example:
 
-Expect result.myvalue is not present
+#> Expect result.myvalue is not present
 ```
 
 ***Expect header <headername>***
@@ -96,7 +96,7 @@ Expect result.myvalue is not present
 ```
 Example:
 
-Expect header Content-Type
+#> Expect header Content-Type
 ```
 
 ***Expect header <headername> value =  "regex" | 'regex' | regex***
@@ -104,7 +104,7 @@ Expect header Content-Type
 ```
 Example:
 
-Expect header Content-Type value = "application/json"
+#> Expect header Content-Type value = "application/json"
 ```
 
 ***Wait [before [running [for]]] NNN s | seconds***
