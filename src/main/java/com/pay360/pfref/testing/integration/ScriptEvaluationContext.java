@@ -1,4 +1,4 @@
-package com.pay360.pfref.testing.integration;
+package uk.co.xeinn.pfref.testing.integration;
 
 import java.io.IOException;
 import java.util.Map;

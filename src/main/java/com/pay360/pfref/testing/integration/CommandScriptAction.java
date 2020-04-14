@@ -1,4 +1,4 @@
-package com.pay360.pfref.testing.integration;
+package uk.co.xeinn.pfref.testing.integration;
 
 import java.util.Arrays;
 import java.util.Objects;
